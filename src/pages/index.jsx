@@ -111,11 +111,11 @@ const Index = () => (
           </AboutSub>
         </AboutHero>
         <AboutDesc>
-          You know the way you feel when you see a picture of two otters holding hands? That's how you're gonna feel
-          every day. My mother cried the day I was born because she knew she’d never be prettier than me. You should
-          make me your campaign manager. I was born for politics. I have great hair and I love lying. Captain? The kids
-          want to know where Paulie the Pigeon is. I told them he got sucked up into an airplane engine, is that all
-          right?
+        I have played various roles in my career like Enterprenuer, Consultant, 
+        Web Solutions Architect Hands-On Programmer, did System/network related development. 
+        <br/>Started my own tech startup providing shuttle services and successfully 
+        sold the business. <br/> 
+        Ex: Juniper Networks, Verismo,Licious.in.
         </AboutDesc>
       </About>
       <Contact offset={4}>
