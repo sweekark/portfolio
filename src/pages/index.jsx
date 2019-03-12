@@ -87,18 +87,18 @@ const Index = () => (
             This is the project where i was full exposed to react postgresql and various types of charting along with leading the tech team
           </ProjectCard>
           <ProjectCard
-            title="Tomb Raider"
-            link="https://www.behance.net/gallery/43907099/Tomb-Raider"
+            title="Prajnam"
+            link="http://www.prajnam.com/r"
             bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)"
           >
-            Recreation of a Tomb Raider Wallpaper (Fan Art)
+            My first stint of freelancing/consulting where i contributed on building a hiring engine. 
           </ProjectCard>
           <ProjectCard
-            title="Eagle"
-            link="https://www.behance.net/gallery/38068151/Eagle"
+            title="Sadhgru App"
+            link="https://play.google.com/store/apps/details?id=com.isha.sadhguru"
             bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
           >
-            A fantasy image manipulation relocating the habitat of wild animals.
+            A sample app displaying react-native redux node and graphql-yoga in the backend
           </ProjectCard>
         </ProjectsWrapper>
       </Projects>
