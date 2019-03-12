@@ -19,6 +19,8 @@ import Contact from '../views/Contact'
 
 import avatar from '../images/avatar.jpg'
 
+import sweekarkAvatar from '../images/sweekark-avatar.jpg'
+
 const ProjectsWrapper = styled.div`
   ${tw`flex flex-wrap justify-between mt-8`};
   display: grid;
@@ -71,18 +73,18 @@ const Index = () => (
         <Title>Projects</Title>
         <ProjectsWrapper>
           <ProjectCard
-            title="Freiheit"
-            link="https://www.behance.net/gallery/58937147/Freiheit"
+            title="Licious"
+            link="https://www.licious.in"
             bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
           >
-            This project is my entry to Adobe's #ChallengeYourPerspective contest.
+            This project is my entry to leading tech in indias e-commerce market.
           </ProjectCard>
           <ProjectCard
-            title="Harry Potter"
-            link="https://www.behance.net/gallery/52915793/Harry-Potter"
+            title="Falconbrick"
+            link="https://www.falconbrick.com"
             bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
           >
-            I entered the DOCMA 2017 award with this Harry Potter inspired image.
+            This is the project where i was full exposed to react postgresql and various types of charting along with leading the tech team
           </ProjectCard>
           <ProjectCard
             title="Tomb Raider"
@@ -103,10 +105,9 @@ const Index = () => (
       <About offset={3}>
         <Title>About</Title>
         <AboutHero>
-          <Avatar src={avatar} alt="John Doe" />
+          <Avatar src={sweekarkAvatar} alt="John Doe" />
           <AboutSub>
-            The English language can not fully capture the depth and complexity of my thoughts. So I'm incorporating
-            Emoji into my speech to better express myself. Winky face.
+            I am an experienced full stack developer with over 10 years of experience.  I have worked on react , node js ,php  aws to name a few ..
           </AboutSub>
         </AboutHero>
         <AboutDesc>
@@ -122,14 +123,14 @@ const Index = () => (
           <Title>Get in touch</Title>
           <ContactText>
             Say <a href="mailto:plizNoSp4m@domain.tld">Hi</a> or find me on other platforms:{' '}
-            <a href="https://dribbble.com/LekoArts">Dribbble</a> &{' '}
-            <a href="https://www.instagram.com/lekoarts.de/">Instagram</a>
+            <a href="https://www.linkedin.com/in/sweekar-k-888975158/">Linkedin</a> &{' '}
+            <a href="https://www.twitter.com/sweeekar/">Twitter</a>
           </ContactText>
         </Inner>
         <Footer>
           &copy; 2019 Portfolio sweekark.{' '}
           <a href="https://github.com/sweekark">Github Repository</a>. Made by{' '}
-          <a href="https://www.lekoarts.de">LekoArts</a>.
+          <a href="https://www.linkedin.com/in/sweekar-k-888975158/">Sweekark</a>.
         </Footer>
       </Contact>
     </Parallax>
